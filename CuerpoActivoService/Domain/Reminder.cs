@@ -16,9 +16,9 @@ namespace SignalRBroadcastServiceSample.Domain
 
         public String Video_url { get; set; }
 
-        public DateTime Start_date { get; set; }
+        public String Start_date { get; set; }
 
-        public DateTime End_date { get; set; }
+        public String End_date { get; set; }
 
         public String Reminder_attachment { get; set; }
 

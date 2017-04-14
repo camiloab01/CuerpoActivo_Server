@@ -2,6 +2,7 @@
 using Microsoft.AspNet.SignalR.Hubs;
 using Microsoft.Owin.Hosting;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using SignalRBroadcastServiceSample.Domain;
 using System;
 using System.Collections.Concurrent;
@@ -48,15 +49,24 @@ namespace SignalRBroadcastServiceSample
                 using (var webClient = new WebClient())
                 {
                     var jsonData = string.Empty;
+                    Reminder reminder = new Reminder();
 
-                    jsonData = webClient.DownloadString(uri);
-
-                    var reminder = JsonConvert.DeserializeObject<Reminder>(jsonData);
-
-                    if (reminder.Id != 0 && reminder.Id != lastReminderNotifiedId)
+                    try
                     {
-                        NotifyAllClients(reminder);
-                        lastReminderNotifiedId = reminder.Id;
+                        jsonData = webClient.DownloadString(uri);
+
+                        JObject root = JObject.Parse(jsonData);
+                        JToken reminderToken = root["reminder"];
+
+                        reminder = JsonConvert.DeserializeObject<Reminder>(reminderToken.ToString());
+                    }
+                    finally
+                    {
+                        if (reminder.Id != 0 && reminder.Id != lastReminderNotifiedId)
+                        {
+                            NotifyAllClients(reminder);
+                            lastReminderNotifiedId = reminder.Id;
+                        }
                     }
                 }
 
