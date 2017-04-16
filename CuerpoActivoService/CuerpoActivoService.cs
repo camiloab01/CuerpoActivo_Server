@@ -60,6 +60,10 @@ namespace SignalRBroadcastServiceSample
 
                         reminder = JsonConvert.DeserializeObject<Reminder>(reminderToken.ToString());
                     }
+                    catch (Exception ex) 
+                    {
+                        Console.Write(ex.Message);
+                    }
                     finally
                     {
                         if (reminder.Id != 0 && reminder.Id != lastReminderNotifiedId)
