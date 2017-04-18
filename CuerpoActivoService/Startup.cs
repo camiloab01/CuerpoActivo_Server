@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(SignalRBroadcastServiceSample.Startup))]
+[assembly: OwinStartup(typeof(CuerpoActivoService.Startup))]
 
-namespace SignalRBroadcastServiceSample
+namespace CuerpoActivoService
 {
     public class Startup
     {

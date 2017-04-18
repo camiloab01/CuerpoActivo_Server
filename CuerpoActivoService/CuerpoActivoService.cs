@@ -11,7 +11,7 @@ using System.Net;
 using System.ServiceProcess;
 using System.Threading;
 
-namespace SignalRBroadcastServiceSample
+namespace CuerpoActivoService
 {
     public partial class CuerpoActivoService : ServiceBase
     {
@@ -32,6 +32,7 @@ namespace SignalRBroadcastServiceSample
 
         protected override void OnStop()
         {
+            base.OnStop();
             if (_signalRApplication != null)
             {
                 _signalRApplication.Dispose();

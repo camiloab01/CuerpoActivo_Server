@@ -1,4 +1,4 @@
-﻿namespace SignalRBroadcastServiceSample
+﻿namespace CuerpoActivoService
 {
     partial class CuerpoActivoService
     {

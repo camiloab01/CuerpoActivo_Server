@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SignalRBroadcastServiceSample
+namespace CuerpoActivoService
 {
     public class CuerpoActivoServiceHub : Hub
     {

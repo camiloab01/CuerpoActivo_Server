@@ -51,9 +51,9 @@ C:\Users\camilog\Desktop\CuerpoActivo_Service\SignalRBroadcastServiceSample\bin\
 C:\Users\camilog\Desktop\CuerpoActivo_Service\SignalRBroadcastServiceSample\obj\Debug\CuerpoActivoService.csprojResolveAssemblyReference.cache
 C:\Users\camilog\Desktop\CuerpoActivo_Service\SignalRBroadcastServiceSample\obj\Debug\SignalRBroadcastServiceSample.exe
 C:\Users\camilog\Desktop\CuerpoActivo_Service\SignalRBroadcastServiceSample\obj\Debug\SignalRBroadcastServiceSample.pdb
-C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\SignalRBroadcastServiceSample.exe.config
-C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\SignalRBroadcastServiceSample.exe
-C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\SignalRBroadcastServiceSample.pdb
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\CuerpoActivoService.exe.config
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\CuerpoActivoService.exe
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\CuerpoActivoService.pdb
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\Microsoft.Owin.Cors.dll
@@ -101,6 +101,8 @@ C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\ja\S
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\ko\System.Windows.Interactivity.resources.dll
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\SignalRBroadcastServiceSample.ProjectInstaller.resources
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\CuerpoActivoService.csproj.GenerateResource.Cache
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\CuerpoActivoService.exe
+C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\CuerpoActivoService.pdb
 C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\CuerpoActivoService.csprojResolveAssemblyReference.cache
-C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\SignalRBroadcastServiceSample.exe
-C:\Users\camilog\Desktop\CuerpoActivo_Service\CuerpoActivoService\obj\Debug\SignalRBroadcastServiceSample.pdb
