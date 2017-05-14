@@ -38,6 +38,7 @@ namespace CuerpoActivoService
                 _signalRApplication.Dispose();
             }
             _signalRApplication = null;
+            mainThread.Abort();
             mainThread.Join();
         }
 
@@ -67,7 +68,7 @@ namespace CuerpoActivoService
                     }
                     finally
                     {
-                        if (reminder.Id != 0 && reminder.Id != lastReminderNotifiedId)
+                        if (reminder != null && reminder.Id != 0 && reminder.Id != lastReminderNotifiedId)
                         {
                             NotifyAllClients(reminder);
                             lastReminderNotifiedId = reminder.Id;
