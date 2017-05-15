@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
+using Microsoft.Owin.Host.HttpListener;
 using Microsoft.Owin.Hosting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -23,6 +24,8 @@ namespace CuerpoActivoService
 
         protected override void OnStart(string[] args)
         {
+            var uberSillyNecessity = typeof(OwinHttpListener);
+            if (uberSillyNecessity != null) { }
             _signalRApplication = WebApp.Start("http://localhost:8084"); 
 
             // Start main thread
